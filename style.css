@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(99, 81, 81, 0.5) 20%, rgba(0, 0, 0, 0.5)50%);
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.navbar .logo {
+    width: 200px;
+    float: left;
+}
+
+.navbar .logo h2 {
+    color: #1eca2f;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo h2 span {
+    color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+}
+
+.menu ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 15px 0px;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.search {
+    width: 330px;
+    margin-left: 270px;
+    float: left;
+}
+
+.srch {
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(55, 62, 67);
+    border: 2px solid rgb(40, 38, 38);
+    margin-top: 13px;
+    color: #fff;
+    font-size: 16px;
+    padding: 22px 10px;
+}
+
+.srch::placeholder {
+    color: tomato;
+}
+
+.btn {
+    background-color: rgb(55, 62, 67);
+    border: 1px solid rgb(40, 38, 38);
+    border-radius: 8%;
+    margin-left: 13px;
+    color: tomato;
+    font-size: 20px;
+    padding: 12px
+}
+
+.btn:hover {
+    color: #000;
+    background-color: orange;
+}
+
+.content {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content-left {
+    width: 700px;
+}
+
+.content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 1.2px;
+}
+
+.content span {
+    color: rgb(0, 183, 255);
+    font-size: 65px;
+}
+
+.content p {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+.joinbtn {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(55, 62, 67);
+    color: tomato;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.joinbtn:hover {
+    color: #000;
+    background-color: orange;
+}
+
+.content-right {
+    width: 300px;
+    height: auto;
+}
+
+form {
+    background-color: black;
+    position: absolute;
+    top: -11px;
+    left: 865px;
+    transform: translate(0, -5%);
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.from h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid skyblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.from input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginbtn {
+    width: 240px;
+    height: 35px;
+    background-color: rgb(55, 62, 67);
+    color: tomato;
+    border: none;
+    margin-top: 35px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.loginbtn:hover {
+    color: #000;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.link {
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 2px!important;
+}
+
+.signup {
+    text-align: center;
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+}
+
+.signup a {
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+}
+
+.liw {
+    text-align: center;
+}
